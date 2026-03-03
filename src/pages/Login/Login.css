@@ -1,0 +1,94 @@
+/* ── Dark mode (default) ──────────────────────────────────────── */
+body.login-page {
+  min-height: 100vh;
+  margin: 0;
+
+  background:
+    /* Orange glow */
+    radial-gradient(
+      circle at 80% 85%,
+      rgba(255, 110, 60, 0.9) 0%,
+      rgba(255, 110, 60, 0.5) 15%,
+      transparent 45%
+    ),
+    /* Secondary orange spread */
+    radial-gradient(
+        circle at 65% 75%,
+        rgba(255, 150, 90, 0.5) 0%,
+        transparent 50%
+      ),
+    /* Dark circular shadow BELOW orange */
+    radial-gradient(
+        circle at 95% 95%,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.7) 25%,
+        rgba(0, 0, 0, 0.4) 45%,
+        transparent 70%
+      ),
+    /* Teal glow */
+    radial-gradient(
+        circle at 70% 35%,
+        rgba(0, 170, 160, 0.45) 0%,
+        transparent 45%
+      ),
+    /* Dark teal spread */
+    radial-gradient(circle at 40% 60%, rgba(0, 70, 75, 0.5) 0%, transparent 60%),
+    /* Base gradient */
+    linear-gradient(
+        135deg,
+        #05080c 0%,
+        #0a1218 25%,
+        #0d2226 50%,
+        #071015 75%,
+        #020406 100%
+      );
+
+  background-blend-mode: screen, normal, normal, normal, normal, normal;
+}
+
+/* ── Light mode ───────────────────────────────────────────────── */
+body.login-page.light {
+  background:
+    /* Soft orange glow */
+    radial-gradient(
+      circle at 80% 85%,
+      rgba(255, 120, 80, 0.35) 0%,
+      rgba(255, 120, 80, 0.2) 15%,
+      transparent 45%
+    ),
+    /* Secondary orange spread */
+    radial-gradient(
+        circle at 65% 75%,
+        rgba(255, 160, 120, 0.25) 0%,
+        transparent 50%
+      ),
+    /* Soft grey circular shadow */
+    radial-gradient(
+        circle at 95% 95%,
+        rgba(0, 0, 0, 0.08) 0%,
+        rgba(0, 0, 0, 0.05) 25%,
+        rgba(0, 0, 0, 0.02) 45%,
+        transparent 70%
+      ),
+    /* Light teal glow */
+    radial-gradient(
+        circle at 70% 35%,
+        rgba(0, 180, 170, 0.25) 0%,
+        transparent 45%
+      ),
+    /* Soft teal spread */
+    radial-gradient(
+        circle at 40% 60%,
+        rgba(0, 120, 120, 0.15) 0%,
+        transparent 60%
+      ),
+    /* Base light gradient */
+    linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #f5f7f9 25%,
+        #eef3f5 50%,
+        #f7f9fb 75%,
+        #ffffff 100%
+      );
+}

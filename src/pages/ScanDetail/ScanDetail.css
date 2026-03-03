@@ -1,0 +1,127 @@
+/* ── Entrance animations for ScanDetail ── */
+@keyframes scanFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scanFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scanSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes stepPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  70% {
+    transform: scale(1.12);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes connectorGrow {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+@keyframes logSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ── Utility classes ── */
+.scan-fade-up {
+  animation: scanFadeUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.scan-fade-in {
+  animation: scanFadeIn 0.35s ease both;
+}
+.scan-step-pop {
+  animation: stepPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+.scan-connector-grow {
+  animation: connectorGrow 0.35s ease both;
+}
+.scan-log-in {
+  animation: logSlideIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.scan-card-in {
+  animation: cardSlideIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Stagger delays ── */
+.sd-0 {
+  animation-delay: 0.05s;
+}
+.sd-1 {
+  animation-delay: 0.12s;
+}
+.sd-2 {
+  animation-delay: 0.2s;
+}
+.sd-3 {
+  animation-delay: 0.3s;
+}
+.sd-4 {
+  animation-delay: 0.42s;
+}
+.sd-5 {
+  animation-delay: 0.55s;
+}
+.sd-6 {
+  animation-delay: 0.7s;
+}
+.sd-7 {
+  animation-delay: 0.87s;
+}
+.sd-8 {
+  animation-delay: 1.05s;
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Urbanist", sans-serif;
+  --font-jetbrains: "JetBrains Mono", monospace;
+}
+
+*,
+*::before,
+*::after {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.font-jetbrains,
+.font-jetbrains * {
+  font-family: "JetBrains Mono", monospace !important;
+  font-optical-sizing: auto;
+}
