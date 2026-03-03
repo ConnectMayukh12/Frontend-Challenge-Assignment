@@ -1,16 +1,33 @@
-# React + Vite
+# Frontend Challenge Assignment Submission By Mayukh Bhowmik
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my solution approach towards the given assignment.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Click Here to Watch the explanatory Video: ](https://drive.google.com/file/d/1cq8y_ZX9Bwn-15c-dzNfWBPOG4O4RYsI/view?usp=drive_link) 
+- [Deployed Link: ](https://frontend-challenge-assignment.vercel.app/) 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I used React.js based on Javascript, TailwindCSS for styling, Lucide React, Font-Awesome for icons.
+Important pages have been shown below:
 
-## Expanding the ESLint configuration
+# SignUp Page:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1919" height="1038" alt="image" src="https://github.com/user-attachments/assets/cb86c2e7-ce0e-4e5c-89f9-ea7cd2663706" />
+
+
+# Dashboard Page:
+
+<img width="1899" height="1033" alt="image" src="https://github.com/user-attachments/assets/22ca8efb-d04a-4926-a827-feccc3af4ece" />
+
+
+# Scan Page:
+
+<img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/23547141-705c-47cc-b942-87e87d4cd0b2" />
+
+
+
+## I would love to hear feedback and scope of improvement in future.
+
+Thanking You,
+Mayukh
+
